@@ -57,3 +57,8 @@ export type Pagination = {
   totalPages: number
   totalItems: number
 }
+
+export type Error = {
+  field: string,
+  message: string
+}
